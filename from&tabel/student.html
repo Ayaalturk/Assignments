@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student manegment</title>
+</head>
+<body>
+    <header>
+        <h1>STUDENT INFORMATION</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" method="GET">
+                <div>
+                    <label for="username">student name</label>
+                    <input id="username" type="text" name="name">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email">
+                </div>
+                <br>
+                <div>
+                    <label for="DOB">DOB</label>
+                    <input id="DOB" type="date" name="dob">
+                </div>
+                <br>
+        
+                    <div>
+                        <p>What is your gender?</p>
+                        <label for="radio_male">Male</label>
+                        <input id="radio_male" type="radio" name="gender" value="male">
+                        <label for="radio_female">Female</label>
+                        <input id="radio_female" type="radio" name="gender" value="female">
+
+                    </div>
+                    <br>
+                <div>
+                    <label for="select">Select your favorite course</label>
+                    <select name="user_course" id="select">
+                        <option value="php">PHP</option>
+                        <option value="python">Python</option>
+                        <option value="c++">C++</option>
+                    </select>
+                </div>
+        <br>
+                <div>
+                    <label for="web_number">enter your age:</label>
+                    <input id="web_number" type="number" name="age" min="18" max="40">
+                </div>
+                <br>
+        
+                
+                <div>
+                    <label for="web_bio">enter you bio:</label>
+                    <textarea name="bio" id="web_bio"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="file">CV:</label>
+                    <input id="file" type="file" name="cv">
+                </div>
+        <br>
+        
+                <button type="submit">Submit form</button>
+            </form>
+        </section>
+        <hr>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>DOB</th>
+                        <th>Gender</th>
+                        <th>favorite course</th>
+                        <th>age</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Khalid</td>
+                        <td>kh@gmail.com</td>
+                        <td>20/6/1999</td>
+                        <td>male</td>
+                        <td>php</td>
+                        <td>23</td>
+                    </tr>
+                    <tr>
+                        <td>Ahmad</td>
+                        <td>ahmad@hotmail.com</td>
+                        <td>1/1/1997</td>
+                        <td>male</td>
+                        <td>C++</td>
+                        <td>25</td>
+
+                    </tr>
+                    <tr>
+                        <td>mesk</td>
+                        <td>mesk55@gmail.com</td>
+                        <td>5/8/1998</td>
+                        <td>python</td>
+                        <td>python</td>
+                        <td>24</td>
+
+                    </tr>
+            </table>
+        </section>
+    </main>
+    
+    <footer>
+        <br>
+        <p>student information <time datetime="2022">2020</time>&copy;</p>
+    </footer>
+    
+</body>
+</html>
