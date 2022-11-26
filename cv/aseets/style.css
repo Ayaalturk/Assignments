@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    background-color: #88D9E6;
+    height: 10vh;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.border {
+    border: solid 3px #8B8BAE;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.contant {
+    margin: 5px;
+    border: solid 3px #8B8BAE;
+}
+.pading {
+    padding: 5px;
+    margin: 3px;
+}
+@media only screen and (max-width: 500px) {
+    .first{
+        background-color: #374B4A;
+        width: 100%;
+    }
+    
+}
+    
